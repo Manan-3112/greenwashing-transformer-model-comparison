@@ -49,27 +49,28 @@ The system evaluates different transformer architectures to identify misleading 
 
 ## 📊 Results
 
-The performance of different transformer-based models was evaluated using standard classification metrics.
+The performance of transformer-based models was evaluated using standard classification metrics.
 
-| Model        | Accuracy | Precision | Recall | F1-Score |
-|-------------|---------|----------|--------|----------|
-| BERT        | 91.2%   | 90.8%    | 91.5%  | 91.1%    |
-| RoBERTa     | 93.5%   | 93.1%    | 93.8%  | 93.4%    |
-| DistilBERT  | 89.7%   | 89.2%    | 90.1%  | 89.6%    |
-| Baseline ML | 84.3%   | 83.9%    | 84.7%  | 84.2%    |
+| Model          | Accuracy | Precision | Recall | F1-Score |
+|---------------|---------|----------|--------|----------|
+| BERT Mini     | 50%     | 0.25     | 0.50   | 0.33     |
+| RoBERTa Base  | 74%     | 0.75     | 0.74   | 0.74     |
+| DistilBERT    | 78%     | 0.78     | 0.78   | 0.78     |
 
 ---
 
 ### 📈 Key Observations
-- Transformer-based models significantly outperform traditional ML models  
-- RoBERTa achieved the highest performance across all metrics  
-- DistilBERT offers a good trade-off between speed and accuracy  
-- Baseline model shows lower performance due to limited contextual understanding  
+- Transformer models significantly outperform basic setups  
+- DistilBERT achieved the best overall performance  
+- BERT Mini underperformed due to limited model capacity  
+- RoBERTa provided strong and balanced results  
 
 ---
 
 ### 🏆 Best Model
-**RoBERTa** achieved the best overall performance with the highest F1-score.
+**DistilBERT** achieved the highest performance across all metrics.
+---
+
 
 ---
 
